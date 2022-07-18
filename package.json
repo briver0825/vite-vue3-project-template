@@ -1,0 +1,36 @@
+{
+  "name": "vite-vue3-project-template",
+  "version": "1.0.0",
+  "description": "vite + vue3 生态集成的一套项目开发模板",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "keywords": [
+    "vite",
+    "vue3",
+    "vue",
+    "project"
+  ],
+  "author": "briver",
+  "license": "ISC",
+  "dependencies": {
+    "@vue/compiler-dom": "^3.2.37",
+    "@vue/runtime-dom": "^3.2.37",
+    "axios": "^0.27.2",
+    "pinia": "^2.0.16",
+    "vue": "^3.2.37",
+    "vue-router": "4"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^3.0.0",
+    "autoprefixer": "^10.4.7",
+    "path": "^0.12.7",
+    "postcss": "^8.4.14",
+    "sass": "^1.53.0",
+    "tailwindcss": "^3.1.6",
+    "vite": "^3.0.0"
+  }
+}
